@@ -71,6 +71,17 @@ button:focus-visible {
   margin: 20px 0px
 }
 
+
+.badge {
+  padding: 10px 10px;
+  border-radius: 9px;
+  color: #797979;
+  background-color: #262e30;
+}
+.badge:hover {
+  color: #afaeae;
+  background-color: #343e41;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

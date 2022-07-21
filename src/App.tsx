@@ -10,13 +10,14 @@ function App() {
     <div className="App App-header">
       <div className="card">
         <h1>Talla seleccionada:</h1>
-        <h1>{ currentSize }</h1>
+        <h1>{currentSize}</h1>
       </div>
-      <SizeSelector 
-        selectedSize={ currentSize }
-        onSizeChange={ setCurrentSize }
-        // onSizeChange tiene un unico value, puede pasarse directamente
+      <SizeSelector
+        selectedSize={currentSize}
+        onSizeChange={setCurrentSize}
+      // onSizeChange tiene un unico value, puede pasarse directamente
       />
+      <small className='badge'>Hecho con [Vite, React, TypeScript]</small>
     </div>
   )
 }
