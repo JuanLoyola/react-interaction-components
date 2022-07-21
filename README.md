@@ -1,4 +1,5 @@
-﻿# react-interaction-components
+﻿# React
+ Comunicación entre Componentes
 
 * Typescript
 * React
