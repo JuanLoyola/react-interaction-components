@@ -14,8 +14,8 @@ function App() {
       </div>
       <SizeSelector
         selectedSize={currentSize}
-        onSizeChange={setCurrentSize}
-      // onSizeChange tiene un unico value, puede pasarse directamente
+        onSizeChange={setCurrentSize} // 1 value (size), puede pasarse directamente
+      
       />
       <small className='badge'>Hecho con [Vite, React, TypeScript]</small>
     </div>
