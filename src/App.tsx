@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   // auxiliar
-  const [currentSize, setCurrentSize] = useState('none')
+  const [currentSize, setCurrentSize] = useState('-')
 
   return (
     <div className="App App-header">
